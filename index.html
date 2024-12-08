@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إدارة سوبر ماركت</title>
+    <link rel="stylesheet" href="working.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>إدارة سوبر ماركت</h1>
+            <nav>
+                <ul>
+                    <li><a href="#add-product">متجري |</a></li>
+                    <li><a href="#view-products">كاشير |</a></li>
+                    <li><a href="#bill"> اضافة اصناف |</a></li>
+                    <li><a href="#bill"> فواتير |</a></li>
+                    <li><a href="#bill"> تقارير |</a></li>
+
+
+                </ul>
+            </nav>
+        </header>
+
+        <section id="add-product">
+            <h2>إضافة عميل جديد</h2>
+            <form id="add-product-form">
+                <label for="product-name">الاسم</label>
+                <input type="text" id="name1" required>
+                <label for="product-price">رقم السجل</label>
+                <input type="number" id="idno" required>
+                <label for="">رقم الجوال</label>
+                <input type="number" id="mobileno" required>
+                <label for="product-name">المنتج </label>
+                <input type="text" id="item1" required>
+                <label for="">السعر </label>
+                <input type="number" id="price1" required>
+                <button id="additem" type="submit">إضافة منتج</button>
+                <audio id="confirmationSound" src="ok.mp3" preload="auto"></audio>
+
+            </form>
+        </section>
+
+        <section id="view-products">
+            <h2>قائمة العملاء</h2>
+            <table id="products-table">
+                <thead>
+                    <tr>
+                        <th>الاسم</th>
+                        <th>رقم السجل</th>
+                        <th>رقم الجوال</th>
+                        <th>المنتج</th>
+                        <th>السعر</th>
+
+
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- المنتجات ستظهر هنا بواسطة جافا سكريبت -->
+                </tbody>
+             </table>
+
+                    <!-- المنتجات ستظهر هنا بواسطة جافا سكريبت -->
+
+
+
+    <script src="javascript.js"></script>
+</body>
+</html>
